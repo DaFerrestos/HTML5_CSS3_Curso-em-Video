@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">
+    <h1 style="color: tomato;">Trabalhando com Listas</h1>
+    <h2 style="color: Green">Listas Ordenadas</h2>
+    <ol>
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li> <!-- O fechamento da tag li é opcional -->
+    </ol>
+    <ol type="A"> <!-- O tipo de ordenação pode ser definido com type -->
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+
+    </ol>
+    <h2 style="color: Green">Listas não ordenadas</h2>
+    <ul>
+        <li>Pão</li>
+        <li>Queijo</li>
+        <li>Leite</li>
+    </ul>
+    <ul type="circle"> <!-- O tipo de ordenação pode ser definido com type -->
+        <li>Pão</li>
+        <li>Queijo</li>
+        <li>Leite</li>
+    </ul>
+
+    <h2 style="color: Green">Juntando Listas / Mesclando Ordenadas e Não ordenadas</h2>
+    <b>
+        <li>Antigas</li>
+    </b>
+    <ol type="a">
+        <li>C</li>
+        <li>Java</li>
+        <li>Cobol</li>
+    </ol>
+    <b>
+        <li>Novas</li>
+    </b>
+    <ol type="a" start="4">
+        <li>SQL</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Kotlin</li>
+    </ol>
+    <!--Desta forma utilizamos uma sequência de conteúdo com listas e sub-listas-->
+
+    <h2 style="color: Green">Minhas leituras favoritas:</h2>
+    <ol>
+        <b>
+            <li>Crônicas</li>
+        </b>
+        <ul type="square">
+            <li>Luís Fernando Veríssimo</li>
+            <li>Fernanda Young</li>
+        </ul>
+        <b>
+            <li>Poesias</li>
+        </b>
+        <ul type="square">
+            <li>Clarisse Lispector</li>
+            <li>Rupi Kaur</li>
+        </ul>
+        <b>
+            <li>Literatura estrangeira</li>
+        </b>
+        <ul type="square">
+            <li>Chimamanda Ngozi</li>
+                <ul type="circle">
+                    <li>Americanah</li>
+                    <li>Meio Sol Amarelo</li>
+                </ul>
+            <li>Valter Hugo Mae</li>
+        </ul>
+        <b>
+            <li>Política/Sociedade</li>
+        </b>
+        <ul type="square">
+            <li>Djamila Ribeiro</li>
+            <li>Angela Davis</li>
+        </ul>
+    </ol>
+    <!--Desta forma mesclamos nosso conteúdo com listas ordenadas e não ordenadas. ::: é possível alterar mais de uma tag por vez utilizando a tecla Alt (mantenha ela pressionada enquanto seleciona os locais do código que serão alterados de uma só vez!)-->
+
+    <h2 style="color: Green">Lista de Definições</h2>
+    <dl>
+        <b>
+            <dt>HTML</dt>
+        </b>
+        <dd>Linguagem de marcação para a criação de conteúdo de um site.</dd>
+        <b>
+            <dt>CSS</dt>
+        </b>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <b>
+            <dt>JavaScript</dt>
+        </b>
+        <dd>Linguagem de programação para a criação da interatividade de um site.</dd>
+    </dl>
+
+</body>
+</html>
